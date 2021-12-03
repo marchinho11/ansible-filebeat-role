@@ -19,7 +19,6 @@ Role Variables
 
 Example Playbook
 ----------------
-
-    - hosts: all
-      roles:
-         - { role: filebeat_role }
+- hosts: all
+  roles:
+     - { role: filebeat_role }
